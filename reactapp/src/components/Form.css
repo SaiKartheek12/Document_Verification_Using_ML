@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure a minimum height of the viewport */
+  overflow: visible;
+}
+
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  transition: transform 0.5s ease-in-out;
+  margin: 20px auto;
+}
+
+
+.verification-results {
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.form-submitted {
+  height: auto !important;
+}
+
+.submitted-body {
+  height: auto !important;
+}
+
+.submitted-results {
+  margin-top: 20px;
+}
+.form-submitted {
+  transform: translate(0, 0); /* Move the form to the center */
+  opacity: 1; 
+}
+body {
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-y: auto; /* Allow vertical overflow with a scrollbar if needed */
+}
+.form-container {
+  min-height: 300px; /* Set a minimum height for the form container */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+/* Add these styles to your CSS file */
+/* Form.css */
+.image-container {
+  margin-top: 20px;
+}
+
+.image-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.uploaded-image,
+.extracted-images {
+  text-align: center;
+}
+
+.extracted-images img {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
